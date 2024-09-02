@@ -1,0 +1,129 @@
+﻿body{
+  background: url(backsamir.jpg) no-repeat fixed center;
+  background-size: cover;
+  font-family: ubuntu;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin: 40px;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+.media{
+  position: fixed;
+  background-size: cover;
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 99px;
+  background-color: #222;
+}
+
+
+
+button{
+  font-family: ubuntu;
+  font-weight: bold;
+  border: 3px solid #ffffff;
+  border-radius: 100px;
+  border-style: dotted double solid dashed;
+  height: auto;
+  width: auto;
+  padding: 5px 20px 5px 20px;
+  font-size: x-large;
+}
+button:hover{
+  background-color: #3535357a;
+  box-shadow:#ffffff;
+  color: #ffffff;
+}
+h1{
+  padding: 0 0 0 50px;
+  font-size: xxl;
+}
+p{ 
+  font-size: large;
+  height: 100%;
+  width: auto;
+  padding: 50px 10px 10px 80px;
+}
+.intro button{
+  margin: 90px 0 0 0;
+  position: relative;
+}
+
+#container{
+  border: #fff solid 1.5px;
+  border-radius: 20px;
+  height: 770px;
+  width: 100%;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  0%   {background-color: #000000;}
+  25%  {background-color: rgba(0, 0, 0, 0.923);}
+  50%  {background-color: #000000a7;}
+  100% {background-color: #00000000;}
+}
+
+
+
+
+
+
+.media{
+  position: fixed;
+}
+
+
+@media screen and (max-width: 400px) {
+  #container{
+    border: #fff solid 1.5px;
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+    animation-name: example;
+    animation-duration: 5s;
+    padding: 0 0 10px 0;
+  }
+  p{
+    border: #ffffff 1px solid;
+    border-radius: 20px;
+    height: auto;
+    font-size: large;
+    width: 65%;
+    padding: 15PX 20PX 15px 20px;
+    margin: 0px 10px 30px;
+  }
+  h1{
+    padding: 0 0 0 5px;
+    font-size: xl;
+  }
+  ul {
+    float: right;
+    list-style-type: none;
+    margin: 0px 40px;
+    padding: 0;
+  }
+
+  h3{
+    font-size: large;
+  }
+  .umm{
+    position:relative;
+    margin: 0 0 0 0;
+  }
+}
