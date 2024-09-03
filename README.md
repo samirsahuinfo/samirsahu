@@ -1,7 +1,3 @@
-Here’s the updated README with the correct information:
-
----
-
 # Samir Sahu's Portfolio Website
 
 ## Overview
