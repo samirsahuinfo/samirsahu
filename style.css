@@ -66,7 +66,7 @@ p{
 #container{
   border: #fff solid 1.5px;
   border-radius: 20px;
-  height: 770px;
+  height: 98svh;
   width: 100%;
   animation-name: example;
   animation-duration: 5s;
