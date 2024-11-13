@@ -1,5 +1,5 @@
 ﻿body{
-  background: url(backsamir.jpg) no-repeat fixed center;
+  background: url(Background.svg) no-repeat fixed center;
   background-size: cover;
   font-family: ubuntu;
   color: #fff;
@@ -28,6 +28,7 @@ li a {
   border: none;
   border-radius: 99px;
   background-color: #222;
+  object-fit: fill;
 }
 
 
@@ -48,22 +49,23 @@ button:hover{
   box-shadow:#ffffff;
   color: #ffffff;
 }
-h1{
+.name{
   padding: 0 0 0 50px;
   font-size: xxl;
+  text-align: center;
 }
 p{ 
   font-size: large;
   height: 100%;
   width: auto;
   padding: 50px 10px 10px 80px;
+  text-align: justify;
 }
 .intro button{
   margin: 90px 0 0 0;
   position: relative;
 }
-
-#container{
+#container, #project{
   border: #fff solid 1.5px;
   border-radius: 20px;
   height: 98svh;
@@ -78,26 +80,48 @@ p{
   50%  {background-color: #000000a7;}
   100% {background-color: #00000000;}
 }
-
-
-
-
-
-
 .media{
   position: fixed;
 }
+#container{
+  background: url(samir.jpg)no-repeat fixed center;
+  background-size: cover;
+}
+#project{
+  margin: 2% 0 0 0;
+  background: url(Dell.jpg)no-repeat fixed center;
+  background-size:cover;
+}
+#project h2{
+  margin: 30px 30px 30px 30px;
+}
 
+footer{
+  border: #fff 2px solid;
+  border-radius: 20px 20px 20px 20px;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+  margin: 2% 0% 0% 0%;
+  text-align: center;
+}
 
 @media screen and (max-width: 400px) {
-  #container{
+  #container #project{
     border: #fff solid 1.5px;
     border-radius: 20px;
-    height: auto;
+    height: 97svh;
     width: 100%;
     animation-name: example;
     animation-duration: 5s;
     padding: 0 0 10px 0;
+  }
+  #container{
+    background-position: 82.5%;
+  }
+  #project{
+    text-align: center;
   }
   p{
     border: #ffffff 1px solid;
@@ -108,7 +132,7 @@ p{
     padding: 15PX 20PX 15px 20px;
     margin: 0px 10px 30px;
   }
-  h1{
+  .name{
     padding: 0 0 0 5px;
     font-size: xl;
   }
@@ -121,9 +145,5 @@ p{
 
   h3{
     font-size: large;
-  }
-  .umm{
-    position:relative;
-    margin: 0 0 0 0;
   }
 }
