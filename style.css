@@ -89,7 +89,7 @@ p{
 }
 #project{
   margin: 2% 0 0 0;
-  background: url(Dell.jpg)no-repeat fixed center;
+  background: url(Dell.jpg)no-repeat center;
   background-size:cover;
 }
 #project h2{
