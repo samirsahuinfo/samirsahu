@@ -1,0 +1,142 @@
+body {
+    background: url(Dell.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-family: ubuntu;
+    color: #fff;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    transform: translateY(-100%);
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+
+  .menu.active {
+    transform: translateY(0);
+    top: 70px;
+  }
+  .menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu a:hover {
+    background: #555;
+  }
+
+  .theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .theme-toggle img {
+    width: 30px;
+    height: 30px;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .social-icons {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ico{
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  }
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #444;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .social-icons a:hover {
+    background: #555;
+  }
+  p{
+    text-align: justify;
+  }
+  button{
+    padding: 10px 20px 10px 20px;
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    font-size: larger;
+
+  }
+  #page1, #page2{
+    text-align: justify;
+    margin: 10% 10% 10% 10%;
+    font-size: larger;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .typing-text {
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #fff; /* Simulate cursor */
+    animation: typing 4s steps(40) 1s forwards; /* 4s duration, steps to match text length */
+  }
+
+  @media (max-width: 768px) {
+    .social-icons {
+      right: 10px;
+    }
+    #page1{
+      margin: 20% 16% 10% 10%;
+    }
+  }
